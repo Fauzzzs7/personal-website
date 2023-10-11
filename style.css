@@ -104,6 +104,7 @@ section .title::after {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
+  text-shadow: 2px 2px 4px black;
 }
 .navbar .logo a span {
   color: #47b5ff;
@@ -123,6 +124,7 @@ section .title::after {
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
+  text-shadow: 2px 2px 4px black;
 }
 .navbar .menu li a:hover {
   color: #47b5ff;
@@ -137,6 +139,7 @@ section .title::after {
   font-size: 23px;
   cursor: pointer;
   display: none;
+  text-shadow: 2px 2px 4px black;
 }
 .scroll-up-btn {
   position: fixed;
@@ -172,7 +175,7 @@ section .title::after {
   background: url("images/DSC07763-2.JPG") no-repeat center;
   height: 100vh;
   color: #fff;
-  min-height: 500px;
+  min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
@@ -215,6 +218,9 @@ section .title::after {
 }
 
 /* about section styling */
+.about {
+  min-height: 100vh;
+}
 .about .title::after {
   content: "who i am";
   color: #111;
@@ -264,6 +270,7 @@ section .title::after {
 .skills {
   background-color: #010265;
   color: #fff;
+  min-height: 100vh;
 }
 .skills .title::after {
   content: "what i know";
@@ -345,6 +352,9 @@ section .title::after {
 }
 
 /* blog section styling */
+.blog {
+  min-height: 100vh;
+}
 .blog,
 .teams {
   color: #000000;
